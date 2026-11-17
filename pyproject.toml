@@ -1,0 +1,13 @@
+[project]
+name = "bibliotheque-jeux-video"
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "flask==3.1.2",
+    "flask-session",
+    "cachelib",
+    "sqlparse",
+    "sqlalchemy",
+    "termcolor",
+    "werkzeug",
+]
